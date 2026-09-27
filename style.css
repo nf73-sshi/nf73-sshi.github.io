@@ -30,7 +30,11 @@ ul {
 
 h2 {
     font-weight: bold;
-    color: #00aaff;
+    color: #00bfff;
+}
+
+h3 {
+    margin-bottom: 10px;
 }
 
 .section_frame {
