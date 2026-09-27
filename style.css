@@ -7,6 +7,10 @@ body {
     text-align: center;
 }
 
+ul {
+    list-style: none;
+}
+
 h2 {
     font-weight: bold;
 }
