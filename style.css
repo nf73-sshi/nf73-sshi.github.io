@@ -7,6 +7,10 @@ body {
     text-align: center;
 }
 
+nav {
+    color: #b8d3ff;
+}
+
 a {
     color: #38bdf8;          
     text-decoration: none;
