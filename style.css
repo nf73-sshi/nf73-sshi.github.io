@@ -38,5 +38,11 @@ h2 {
 }
 
 .project_div {
-    margin-bottom: 100px;
+    margin-bottom: 250px;
+    
+    background-color: #181f2b;
+    border: 1px solid #2a3545;
+    border-radius: 15px;     
+    padding: 20px; 
+    margin-bottom: 20px;
 }
