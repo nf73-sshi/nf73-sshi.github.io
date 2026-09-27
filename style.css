@@ -11,6 +11,10 @@ a {
     color: #38bdf8;          
     text-decoration: none;
 }
+a:hover {
+    text-decoration: underline; 
+    color: #7dd3fc; 
+}
 
 ul {
     list-style: none;
