@@ -11,18 +11,17 @@ body {
 nav ul {
     font-size: 18px;
     display: flex;
-    color: #b8d3ff;
     gap: 30px;
     justify-content: center;
 }
 
 a {
-    color: #38bdf8;          
+    color: #00aaff;          
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline; 
-    color: #7dd3fc; 
+    color: #b3e5ff; 
 }
 
 ul {
@@ -31,7 +30,7 @@ ul {
 
 h2 {
     font-weight: bold;
-    color: #0099ff;
+    color: #00aaff;
 }
 
 .section_frame {
