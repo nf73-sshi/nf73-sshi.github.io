@@ -8,8 +8,11 @@ body {
     text-align: center;
 }
 
-nav {
+nav ul {
+    display: flex;
+    list-style: none;
     color: #b8d3ff;
+    gap: 30px;
 }
 
 a {
