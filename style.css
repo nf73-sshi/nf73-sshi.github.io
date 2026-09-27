@@ -13,6 +13,7 @@ nav ul {
     list-style: none;
     color: #b8d3ff;
     gap: 30px;
+    text-align: center;
 }
 
 a {
