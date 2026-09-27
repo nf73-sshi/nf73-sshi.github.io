@@ -9,8 +9,8 @@ body {
 }
 
 nav ul {
+    font-size: 18px;
     display: flex;
-    list-style: none;
     color: #b8d3ff;
     gap: 30px;
     justify-content: center;
@@ -31,7 +31,7 @@ ul {
 
 h2 {
     font-weight: bold;
-    color: #00fff2;
+    color: #0099ff;
 }
 
 .section_frame {
