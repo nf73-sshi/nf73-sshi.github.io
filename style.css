@@ -73,6 +73,12 @@ h3 {
     box-sizing: border-box;
 }
 
+.project-card iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
 @media (max-width: 768px) {
     .project-card {
         flex: 0 0 100%; /* 1 seule carte par ligne sur mobile */
