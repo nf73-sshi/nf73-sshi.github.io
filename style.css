@@ -53,3 +53,28 @@ h3 {
     padding: 20px; 
     margin-bottom: 50px;
 }
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;      
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.project-card {
+    background: rgba(255, 255, 255, 0.05); 
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    color: #ffffff;
+    
+    flex: 0 0 calc(50% - 10px); 
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        flex: 0 0 100%; /* 1 seule carte par ligne sur mobile */
+    }
+}
