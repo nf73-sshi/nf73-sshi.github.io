@@ -24,12 +24,7 @@
         mote.style.animationDuration = `${Math.random() * 5 + 8}s`;
         container.appendChild(mote);
     }
-  </script>
-<script>
-  /**
-   * Animation control function, called on every frame.
-   * @param {object} frame - The animation frame object (contains time, progress, etc.).
-   */
+    
   window.nextFrame = function(frame) {
     // AI-suggested functions to consider for this animation:
     // - document.querySelectorAll\n    // - element.style.transform\n    // - element.style.opacity\n    // - Math.sin\n    // - Math.cos\n    // - performance.now\n    // - Math.random\n    // - element.style.animationDuration\n    // - element.style.animationPlayState\n    // - element.animate\n    // - container.appendChild\n    // - element.remove
@@ -86,7 +81,8 @@
           <h2><u>NAM Engine</u></h2>
           <p>C++, Moteur personnel Custom, Pipeline de Rendu DirectX12, Entity Component System, Lambert Lighting</p>
           <p>Code source du NAM Engine disponible dans le repo du projet <u>PsychoPath</u></p><br>
-           
+          <img src="NamEngine.png" alt="Logo" style="width:500px;height:281px;">
+
           <p>Moteur C++ développé en Trio (4 semaines) utilisant l'API DirectX12 et basé sur un Entity Component System (ECS).<br>
           Couche haut niveau avec Scenes et GameObjects ajoutée pour l'utilisateur.
             
