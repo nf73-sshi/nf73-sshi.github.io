@@ -11,7 +11,22 @@
   <div class="light-source two"></div>
   <div class="mote-container" id="moteContainer"></div>
   <script="script.js">
-  </script>  
+  </script>
+ <script>
+  window.nextFrame = function(frame) {
+    if (typeof animate === 'function') {
+      animate(frame.time);
+    }
+  }
+   
+  if (typeof requestAnimationFrame === 'function' && !window.__HTV__?.exporting) {
+    let tick = 0;
+    function animate(time) {
+      tick++;
+      requestAnimationFrame(animate);
+    }
+  }
+</script>
     <header>
       <h1><b><u>Bienvenue dans mon PortFolio de Développeur C/C++ !</u></b></h1>
       <p>Étudiant à Gaming Campus Lyon, filière G.Tech Moteur 3ème année<br>
