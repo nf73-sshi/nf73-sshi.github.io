@@ -104,7 +104,7 @@ h3 {
         rgba(255, 238, 204, 0.25) 52%,
         rgba(255, 238, 204, 0) 60%
     );
-    animation: pan-light 10s infinite linear ease-in-out alternate;
+    animation: pan-light 10s infinite ease-in-out alternate;
     /* To create a soft origin point for the rays */
     -webkit-mask-image: radial-gradient(ellipse at 50% -20%, black 20%, transparent 70%);
     mask-image: radial-gradient(ellipse at 50% -20%, black 20%, transparent 70%);
@@ -113,7 +113,7 @@ h3 {
 .light-source.two {
         pointer-events: none;
         transform: translateX(-50%) rotate(-20deg);
-        animation-duration: 8s; /* Vary speed for realism */
+        animation: pan-light 10s infinite ease-in-out alternate;
 }
 
 @keyframes pan-light {
@@ -137,7 +137,7 @@ h3 {
     border-radius: 50%;
     opacity: 0.5;
     box-shadow: 0 0 10px #ffeecc;
-    animation: float 10s infinite linear ease-in-out alternate;
+    animation: float 10s infinite linear;
 }
 
 @keyframes float {
