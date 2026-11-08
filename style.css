@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 25px;
     text-align: center;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
 }
 
@@ -90,7 +90,8 @@ h3 {
 }
 
 .light-source {
-    position: absolute;
+    position: fixed;
+    pointer-events: none;
     top: -20%;
     left: 50%;
     width: 300%;
@@ -110,6 +111,8 @@ h3 {
 }
 
 .light-source.two {
+    position: fixed;
+    pointer-events: none;
     transform: translateX(-50%) rotate(-20deg);
     animation-duration: 8s; /* Vary speed for realism */
 }
@@ -120,7 +123,7 @@ h3 {
 }
 
 .mote-container {
-    position: absolute;
+    position: fixed;
     top: 0; left: 0;
     width: 100%;
     height: 100%;
