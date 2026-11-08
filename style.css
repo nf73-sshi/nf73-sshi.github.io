@@ -94,8 +94,8 @@ h3 {
     pointer-events: none;
     top: -20%;
     left: 50%;
-    width: 300%;
-    height: 150%;
+    width: 600%;
+    height: 300%;
     transform: translateX(-50%);
     background: linear-gradient(
         90deg,
