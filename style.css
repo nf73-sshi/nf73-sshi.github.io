@@ -98,7 +98,7 @@ h3 {
     height: 150%;
     transform: translateX(-50%);
     background: linear-gradient(
-        45deg,
+        90deg,
         rgba(255, 238, 204, 0) 40%,
         rgba(255, 238, 204, 0.25) 48%,
         rgba(255, 238, 204, 0.25) 52%,
@@ -117,8 +117,8 @@ h3 {
 }
 
 @keyframes pan-light {
-    from { transform: translateX(-50%) rotate(-180deg); }
-    to { transform: translateX(-50%) rotate(180deg); }
+    from { transform: translateX(-50%) rotate(-40deg); }
+    to { transform: translateX(-50%) rotate(40deg); }
 }
 
 .mote-container {
