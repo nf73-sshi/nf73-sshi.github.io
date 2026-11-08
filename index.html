@@ -124,14 +124,13 @@
 </script>  
     <header>
       <h1><b><u>Bienvenue dans mon PortFolio !</u></b></h1>
+      <p>Étudiant à Gaming Campus Lyon, filière G.Tech Moteur 3ème année</p>
       <p>Développeur C/C++</p>
       <p> - Github : <a href="https://github.com/nf73-sshi" target="_blank">nf73-sshi</a></p>
-      
-      <img src="logo.jpg" alt="Logo" style="width:300px;height:300px;">
+      <img src="logo.jpg" alt="Logo" style="width:200px;height:200px;">
       
       <nav>
         <ul>
-          <li><a href="#A propos">À propos</a></li>
           <li><a href="#Projets">Projets</a></li>
           <li><a href="#Competences">Compétences</a></li>
           <li><a href="#Contact">Contact</a></li>
@@ -139,20 +138,6 @@
       </nav>
       <br>
     </header>
-
-      <section id="A propos" class="section_frame">
-        <h1><u>À propos</u></h1>
-        <p>Étudiant à Gaming Campus Lyon, filière G.Tech Moteur.<br>
-           Je réalise actuellement ma 3ème et dernière année de Bachelor. J'envisagerai une spécialisation de 2 ans pour obtenir un Mastère.<br>
-           Je conçois de nombreux projets en solo ou en groupe mettant à l'épreuve la partie théorique grâce à un cahier des charges complet et exigeant.<br><br>
-          
-           Nous avons réalisés 3 projets en interdisciplinarité avec d'autres filières comme Art et Business dans des équipes de 10 à 20 personnes.<br>
-           En d'autres termes, cet enseignement me permet de projeter dans le monde du travail en ayant des contraintes et attentes similaires.<br><br>
-           
-           Pendant mon temps libre, j'aime coder des projets personnels, passer du temps avec mes amis, jouer aux jeux-vidéo et faire du piano.<br><br>
-        </p>
-      </section>
-
       <section id="Projets" class="section_frame">
         <h1><u>Projets</u></h1>
 
@@ -160,27 +145,43 @@
          <div class ="project-card">
           <h2><u>NAM Engine</u></h2>
           <p>C++, Moteur personnel Custom, Pipeline de Rendu DirectX12, Entity Component System, Lambert Lighting</p>
-
-          <p>Pour voir le code source du NAM Engine, le repo du projet <u>PsychoPath</u> ci-dessous est disponible !</p>
+          <p>Code source du NAM Engine disponible dans le repo du projet <u>PsychoPath</u></p><br>
            
-          <p>Ce moteur C++ a été développé en Trio pendant 4 semaines, utilisant l'API DirectX12 et basé sur un Entity Component System (ECS).<br>
-          Une couche haut niveau avec des Scenes et GameObjects a été rajouté pour faciliter les utilisateurs du moteur.
+          <p>Moteur C++ développé en Trio (4 semaines) utilisant l'API DirectX12 et basé sur un Entity Component System (ECS).<br>
+          Couche haut niveau avec Scenes et GameObjects ajoutée pour l'utilisateur.
             
           J'ai été en charge de m'occuper de la pipeline de rendu, des Lights et du système de Scenes et GameObjects</p>
         </div>
         
         <div class ="project-card">
           <h2><u>PsychoPath</u></h2>
-          <p>C++, Moteur créé Custom DirectX12 (NAM Engine), Spatial Sound, Pathfinding, First Person</p>
+          <p>C++, Moteur créé NAM Engine, Spatial Sound, Pathfinding, First Person</p>
           <a href="https://github.com/nf73-sshi/PsychoPath" target="_blank">Repo Github</a><br><br>
-          <iframe width="500" height="281" src="https://www.youtube.com/embed/wIByddpkYco?si=bfon2yifDFYeC7fY" title="YouTube video player"></iframe>
+          <iframe width="500" height="281" src="https://www.youtube.com/embed/wIByddpkYco?si=bfon2yifDFYeC7fY" title="YouTube video player" allowfullscreen"></iframe>
           
-          <p>Jeu d’Horreur Enigme Parkour à la première personne dans un asile psychiatrique.<br>
-             Jouable clavier et manette, une aventure linéaire où l'objectif est de fuir le sujet P5YCH0 qui rôde.<br><br>
+          <p>Jeu d’Horreur Enigme Parkour dans un asile psychiatrique.<br>
+             Jouable clavier et manette, une aventure où l'objectif est de fuir le sujet P5YCH0 qui rôde.<br><br>
              Développé en 5 semaines en trio (Méthode Waterfall + Kanban) sur <u>notre propre moteur</u>, le NAM Engine.<br>
+            <p>J'ai été en charge d'améliorer le NAM Engine (Materials, Spatial Sound)<br>
+            et de l'ajout de certaines mécaniques (Inventaire, Jumpscare, Sauvegarde, SFX, Menus + Settings)</p>
           </p>
         </div>
-        
+
+        <div class ="project-card">
+          <h2><u>Legend of Zhu-Min</u></h2>
+          <p>C++, Moteur fourni GCE, FPS, Pathfinding, Loader Obj + Blender Scene, Pooling d'Entities</p>
+          <a href="https://github.com/matthysQUINIOU-E/Arena-shooter" target="_blank">Repo Github</a><br><br>
+          <iframe width="500" height="281" src="https://www.youtube.com/embed/uUSSAJAVCas?si=ACWN44F7soDfysCt" title="YouTube video player" allowfullscreen"></iframe>
+          <p>Jeu de type Arena Shooter dans l'univers médiéval chinois.<br><br>
+
+          Développé en 3 semaines en trio (Méthode Scrum) en interdisciplinarité avec 2 arts,<br>
+          ce projet a été complexe dû aux contraintes du moteur ayant beaucoup de disfonctionnements,<br>
+          nous avons donc dû adapter certaines logiques pour qu'il puisse fonctionner comme recyclage d'entités sans jamais en détruire.<br>
+
+          J'ai été en charge de créer les mouvements du joueur, le système de tir et recharge des armes et l'arme de mêlée ainsi que des UI.
+          </p>
+          
+        </div>
         <div class ="project-card">
           <h2><u>Solarbloom</u></h2>
           <p>C++, Moteur fourni LightEngine, Asset Manager, Physic & Collider System, State Machine, Platformer 2D</p>
@@ -189,7 +190,7 @@
             <source src="solarbloom.mp4" type="video/mp4">
             {Video}
           </video>
-          <p>Jeu de Plateforme 2D Pixel Art dans le style Solarpunk avec un système de niveaux.<br>
+          <p>Jeu de Plateforme 2D Pixel Art dans le style Solarpunk avec des niveaux.<br>
              Le robot possède une ruée, un pistolet à bulles pour hydrater la végétation et un désherbant pour éliminer les plantes nocives.<br><br>
             
              Développé en 2 semaines en interdisciplinarité (5 Devs, 3 Arts, 2 Business) sur un moteur fourni au préalable (Light Engine).<br>
@@ -205,9 +206,8 @@
             {Video}
           </video>
           <p>Jeu mobile de air hockey jouable à 2.<br>
-             Le joueur 1 choisit des pions à déplacer et leur donne une force (dans le but de marquer). Le joueur 2 fait de même.<br>
-             Chaque joueur doit cacher ses actions, les 2 joueurs regardent ensuite les actions s'effectuer en même temps.<br>
-             L'objectif de ce jeu est de créer des stratégies pour marquer et bloquer son adversaire en anticipant ses choix.<br><br>
+             Tour par tour, les joueurs appliquent des forces à leurs pions (sans que l'autre voit) dans le but de marquer. Une fois fini,<br>
+             les forces s'appliquent en même temps, permettant de l'anticipation sur les choix de l'autre.<br><br>
             
              Développé en 2 semaines seul sur Godot Engine et conçu pour être joué avec un ami pour passer le temps.<br>
              Toujours en cours de développement et d'ajout de nouveau contenu comme un mode de jeu avec des sorts.
@@ -216,7 +216,7 @@
         
         <div class ="project-card">
           <h2><u>Pathfinding 2D</u></h2>
-          <p>C++, Moteurs fournis LightEngine (2D) & SimpleRenderer (3D), Algo A*, Editeur de niveau</p>
+          <p>C++, Moteurs fournis LightEngine (2D) & SimpleRenderer (3D), Algo A*, Editeur de grille</p>
           <a href="https://github.com/nf73-GC/PathfindingS1P3" target="_blank">Repo Github</a><br><br>
           <img src="pathfinding2D.gif" alt="Pathfinding 2D" style="width:300px;height:300px;">
           <img src="pathfinding3D.gif" alt="Pathfinding 3D" style="width:300px;height:300px;">
@@ -224,7 +224,8 @@
              Les agents oranges se baladent aléatoirement, les rouges vont à la destination des oranges pour les manger.<br><br>
             
              Une version 3D (<u>branche Main-3D sur Github</u>) ajoute la hauteur, un agent ne peut franchir qu'1 seule case de hauteur par déplacement.<br>
-             Les contrôles sont écrits dans le fichier main.cpp de chaque version du projet<br>
+             Les contrôles sont écrits dans le fichier main.cpp de chaque version du projet<br><br>
+            
              Développé en 2 semaines en Duo en C++ sur un moteur fourni (Light Engine) où la structure du Pathfinding a dû être implémentée.<br>
           </p>
         </div>
