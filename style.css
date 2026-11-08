@@ -104,7 +104,7 @@ h3 {
         rgba(255, 238, 204, 0.25) 52%,
         rgba(255, 238, 204, 0) 60%
     );
-    animation: pan-light 10s infinite ease-in-out alternate;
+    animation: pan-light 13s infinite ease-in-out alternate;
     /* To create a soft origin point for the rays */
     -webkit-mask-image: radial-gradient(ellipse at 50% -20%, black 20%, transparent 70%);
     mask-image: radial-gradient(ellipse at 50% -20%, black 20%, transparent 70%);
@@ -113,12 +113,12 @@ h3 {
 .light-source.two {
         pointer-events: none;
         transform: translateX(-50%) rotate(-20deg);
-        animation: pan-light 8s infinite ease-in-out alternate;
+        animation: pan-light 10s infinite ease-in-out alternate;
 }
 
 @keyframes pan-light {
     from { transform: translateX(-50%) rotate(-40deg); }
-    to { transform: translateX(-50%) rotate(40deg); }
+    to { transform: translateX(-50%) rotate(140deg); }
 }
 
 .mote-container {
