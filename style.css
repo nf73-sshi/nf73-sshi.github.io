@@ -118,7 +118,7 @@ h3 {
 
 @keyframes pan-light {
     from { transform: translateX(-50%) rotate(-40deg); }
-    to { transform: translateX(50%) rotate(40deg); }
+    to { transform: translateX(-50%) rotate(40deg); }
 }
 
 .mote-container {
