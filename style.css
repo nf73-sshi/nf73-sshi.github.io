@@ -38,6 +38,13 @@ h3 {
     margin-bottom: 10px;
 }
 
+.project-card iframe {
+    width: 100%;         
+    height: auto;      
+    aspect-ratio: 16 / 9;   
+    border: none;
+}
+
 .section_frame {
     background-color: #1e293b;
     border: 1px solid #334155;
