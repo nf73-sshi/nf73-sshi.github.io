@@ -38,13 +38,6 @@ h3 {
     margin-bottom: 10px;
 }
 
-.project-card iframe {
-    width: 100%;         
-    height: auto;      
-    aspect-ratio: 16 / 9;   
-    border: none;
-}
-
 .section_frame {
     background-color: #1e293b;
     border: 1px solid #334155;
@@ -82,13 +75,14 @@ h3 {
 }
 
 .project-card iframe {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
+    width: 500px;
+    height: 281px;
+    aspect-ratio: 16 / 9;   
+    border: none;
 }
 
 @media (max-width: 768px) {
     .project-card {
-        flex: 0 0 100%; /* 1 seule carte par ligne sur mobile */
+        flex: 0 0 100%; 
     }
 }
