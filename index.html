@@ -12,13 +12,11 @@
   <div class="mote-container" id="moteContainer"></div>
   <script src="script.js" defer>
   </script>
- <script>
+ <script defer>
   let tick = 0;
   function animate(time) {
     tick++;
     
-    // Put your light 1, light 2, and particle update logic here
-  
     if (typeof requestAnimationFrame === 'function' && !window.__HTV__?.exporting) {
       requestAnimationFrame(animate);
     }
