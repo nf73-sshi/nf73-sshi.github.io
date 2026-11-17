@@ -13,19 +13,26 @@
   <script src="script.js" defer>
   </script>
  <script>
-  window.nextFrame = function(frame) {
-    if (typeof animate === 'function') {
-      animate(frame.time);
-    }
-  }
-   
-  if (typeof requestAnimationFrame === 'function' && !window.__HTV__?.exporting) {
-    let tick = 0;
-    function animate(time) {
-      tick++;
+  let tick = 0;
+  function animate(time) {
+    tick++;
+    
+    // Put your light 1, light 2, and particle update logic here
+  
+    if (typeof requestAnimationFrame === 'function' && !window.__HTV__?.exporting) {
       requestAnimationFrame(animate);
     }
   }
+  
+  window.nextFrame = function(frame) {
+    animate(frame.time);
+  };
+  
+  // Start the loop only if not exporting
+  if (typeof requestAnimationFrame === 'function' && !window.__HTV__?.exporting) {
+    requestAnimationFrame(animate);
+  }
+
 </script>
     <header>
       <h1><b><u>Bienvenue dans mon PortFolio Développeur C/C++ !</u></b></h1>
