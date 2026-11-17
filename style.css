@@ -152,7 +152,3 @@ h3 {
         opacity: 0;
     }
 }
-
-@media (prefers-reduced-motion: reduce) {
-    .light-source, .mote { animation: none; }
-}
